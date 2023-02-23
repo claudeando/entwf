@@ -1,0 +1,12 @@
+export { default as Atom } from "./Atom";
+export { default as Boom } from "./Boom";
+export { default as Bulb } from "./Bulb";
+export { default as Rainbow } from "./Rainbow";
+export { default as SiteLogo } from "./SiteLogo";
+export { default as Smiley } from "./Smiley";
+export { default as SocialFacebook } from "./SocialFacebook";
+export { default as SocialInsta } from "./SocialInsta";
+export { default as SocialYoutube } from "./SocialYoutube";
+export { default as UnderlineSawtooth } from "./UnderlineSawtooth";
+export { default as UnderlineWaves } from "./UnderlineWaves";
+export { default as UnderlineWind } from "./UnderlineWind";

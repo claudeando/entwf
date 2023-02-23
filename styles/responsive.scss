@@ -1,0 +1,67 @@
+@media (max-width: $xl-break) {}
+
+@media (max-width: $lg-break) {}
+
+@media (max-width: $md-break) {
+    main {
+        section {
+            min-height: auto !important;
+        }
+
+        #home {
+            .socialIcons {
+                display: none;
+            }
+        }
+
+        #about {
+            padding: 2.5rem;
+
+            p {
+                font-size: 2.5rem !important;
+                text-align: center;
+            }
+        }
+
+        #contact {
+            h2 {
+                font-size: 5rem;
+                width: 40rem;
+                line-height: 6.5rem;
+            }
+
+            h3 {
+                color: $cornflower;
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    header {
+        position: relative !important;
+
+        .nav {
+            display: none;
+        }
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 1.5rem;
+
+        .copyright {
+            text-align: center;
+        }
+
+        .footerLink {
+            flex-direction: row;
+            gap: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: $sm-break) {}

@@ -1,0 +1,285 @@
+@import './fonts.scss';
+@import './variables.scss';
+
+* {
+  box-sizing: border-box;
+  // border: 1px solid red;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth !important;
+  font-family: 'TroisMilleLight';
+
+  h1 {
+    color: $white;
+    font-family: 'helvetica';
+  }
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+main {
+  section {
+    width: 100%;
+    min-height: auto;
+  }
+
+  #home {
+
+    header {
+      font-family: 'TroisMilleBlack';
+      background: $brand-pink;
+      height: 6.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo {
+        position: relative;
+        bottom: -1rem;
+      }
+
+      nav {
+        margin-right: 2.5rem;
+
+        ul {
+          display: flex;
+          gap: 5rem;
+
+          li {
+            color: $white;
+            font-size: 1.75rem;
+            list-style: none;
+          }
+        }
+      }
+    }
+
+    .socialIcons {
+      position: absolute;
+      bottom: 0;
+      margin-left: 2.5rem;
+    }
+  }
+
+  #about {
+    min-height: 100vh;
+    background: $cornflower;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      width: 85rem;
+      color: $light-cyan;
+      font-size: 5vw;
+      text-align: center;
+    }
+
+    .bt {
+      font-family: 'TroisMilleBlack';
+
+      &:nth-of-type(1) {
+        color: $apricot;
+        background-image: url('/svg/bulb.svg');
+        background-repeat: no-repeat;
+      }
+
+      &:nth-of-type(2) {
+        color: $aqua;
+        background-image: url('/svg/boom.svg');
+        background-repeat: no-repeat;
+      }
+
+      &:nth-of-type(3) {
+        color: $neon-blue;
+        background-image: url('/svg/underlineWind.svg');
+        background-repeat: no-repeat;
+      }
+
+      &:nth-of-type(4) {
+        color: $yellow-green;
+        background-image: url('/svg/atom.svg');
+        background-repeat: no-repeat;
+      }
+
+      &:nth-of-type(5) {
+        color: $coral-pink;
+        background-image: url('/svg/underlineSawtooth.svg');
+        background-repeat: no-repeat;
+      }
+
+      &:nth-of-type(6) {
+        color: $peach;
+        background-image: url('/svg/smiley.svg');
+        background-repeat: no-repeat;
+      }
+
+      &:nth-of-type(7) {
+        color: $primary-blue;
+        background-image: url('/svg/rainbow.svg');
+        background-repeat: no-repeat;
+      }
+
+      &:nth-of-type(8) {
+        color: $baby-purple;
+        background-image: url('/svg/underlineWaves.svg');
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  #contact {
+    min-height: 100vh;
+    color: $pale-pink;
+    background: $peach;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    h2,
+    h3 {
+      font-family: 'TroisMilleBlack';
+    }
+
+    h2 {
+      width: 40rem;
+      font-size: 8vw;
+      line-height: 6.5rem;
+    }
+
+    h3 {
+      color: $cornflower;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.5vw;
+    }
+
+    .bt {
+      color: $white;
+      font-family: 'TroisMilleBlack';
+      font-size: 2vw;
+    }
+  }
+}
+
+
+footer {
+  width: 100%;
+  height: 5rem;
+  color: $pale-pink;
+  background: transparent;
+  padding: 0 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .footerLink {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+}
+
+.socialIcons {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+
+@media (max-width: $xl-break) {}
+
+@media (max-width: $lg-break) {}
+
+@media (max-width: $md-break) {
+  main {
+    section {
+      min-height: auto;
+    }
+
+    #home {
+      header {
+        .nav {
+          display: none;
+        }
+      }
+
+      .socialIcons {
+        display: none;
+      }
+    }
+
+    #about {
+      p {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+    }
+
+    #contact {
+      h2 {
+        width: 40rem;
+        font-size: 8vw;
+        line-height: 6.5rem;
+      }
+
+      h3 {
+        color: $cornflower;
+        font-size: 1.5rem;
+      }
+
+      .bt {
+        font-size: 3.5vw;
+      }
+
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 1.5rem;
+
+    .copyright {
+      text-align: center;
+    }
+
+    .footerLink {
+      flex-direction: row;
+      gap: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: $sm-break) {}

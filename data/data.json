@@ -1,0 +1,74 @@
+{
+  "data": {
+    "uri": "__home__",
+    "id": "3",
+    "title": "Landing Page",
+    "sectionTextHeaderLink": "about",
+    "sectionTextTitle": null,
+    "sectionTextCopy": "Sketch is a <span class='bt'>bright</span> new<br /> production music label full of <br /><span class='bt'>fun</span>, <span class='bt'>energy</span> and <span class='bt'>colour.</span> Jam packed with <span class='bt'>punchy</span> pop, <span class='bt'>cheeky</span> electro, <span class='bt'>optimistic</span> orchestral and <span class='bt'>bouncy</span> beats for promos, sports, lifestyle and kids TV.",
+    "keywordList": [
+      {
+        "id": "56",
+        "svg": "bulb",
+        "color": "orange",
+        "position": "attached",
+        "keyword": "bright"
+      },
+      {
+        "id": "57",
+        "svg": "boom",
+        "color": "mint",
+        "position": "left",
+        "keyword": "fun"
+      },
+      {
+        "id": "61",
+        "svg": "underlineWind",
+        "color": "skyBlue",
+        "position": "attached",
+        "keyword": "energy"
+      },
+      {
+        "id": "62",
+        "svg": "atom",
+        "color": "green",
+        "position": "right",
+        "keyword": "colour"
+      },
+      {
+        "id": "63",
+        "svg": "underlineSawtooth",
+        "color": "darkPink",
+        "position": "attached",
+        "keyword": "punchy"
+      },
+      {
+        "id": "64",
+        "svg": "smiley",
+        "color": "coral",
+        "position": "right",
+        "keyword": "cheeky"
+      },
+      {
+        "id": "79",
+        "svg": "rainbow",
+        "color": "navyBlue",
+        "position": "left",
+        "keyword": "optimistic"
+      },
+      {
+        "id": "80",
+        "svg": "underlineWaves",
+        "color": "lightPink",
+        "position": "attached",
+        "keyword": "bouncy"
+      }
+    ],
+    "sectionContactHeaderLink": "contact",
+    "sectionContactTitle": "Get in touch",
+    "sectionContactInitialCopy": "<p><a class='bt' href=\"mailto:hello@sketchproductionmusic.com\">hello@sketchproductionmusic.com</a></p>\n<p class='bt'>@sketchproduction<music.com/p>",
+    "sectionContactSecondaryCopy": "<p>If you would like to license a track please get in touch with</p>\n<p><a class='bt' href=\"https://entwurf.co.uk\" target=\"_blank\" rel=\"noreferrer noopener\">Universal Production Music</a></p>\n<p>To speak with an account manager click on contact.</p>",
+    "sectionContactSecondaryTitle": "UPM",
+    "sectionContactInitialTitle": "Sketch Music"
+  }
+}
